@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="estilo.css"/>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+        <meta name="description" content="Página realizada no estudo do HTML5."/>
+        <meta name="keywords" content="feijão, html3, listas, tabelas, formulários"/>
+        <meta name="author" content="TDS - SENAI"/>
+        <meta name="robots" content="noindex, nofollow"/>
+        <meta charset="UTF-8"/>
+        <title>Pé de Feijão SA</title>
+    </head>
+    <body>
+        <header>
+            <h1>Pé de Feijão SA</h1>
+        </header>
+        <hr/>
+        <nav>
+            <a href="index.html"><b>Home</b></a> |
+            <a href="somos.html">Quem Somos</a> |
+            <a href="contato.html"> Entre em contato</a>
+        </nav>
+        <hr/>
+        <section>
+            <table>
+                <tr>
+                    <td><b>Localização</b><br/>
+                    Rua dos Queros, 33<br/>
+                Zona 4<br/>
+            Maringá - Paraná<br/>
+        <b>Telefone</b><br/>
+    (44)9999-9999</td>
+                    <td><form method="POST" action="obrigado.html">
+                        <fieldset>
+                            <legend><b>Contato</b></legend>
+                            <label>Nome</label>
+                            <input type="text" name="nome" required placeholder="Insira o seu nome"/>
+                            <p><label>Senha</label>
+                                <input type="password" name="senha" placeholder="Digite a sua senha"/></p>
+                                <p><label>E-mail</label>
+                                    <input type="email" name="email" required placeholder="Digite o seu e-mail"/></p>
+                                    <p><label>Data</label>
+                                        <input type="date" name="Data"/></p>
+                                        <p><label>Conhecimento</label>
+                                            <input type="radio" name="html" value="html"/>HTML
+                                            <input type="radio" name="php" value="php"/>php
+                                            <input type="radio" name="python" value="python"/>Python</p>
+                                            <p><label>Escolha sua marca</label>
+                                                <select name="marca">
+                                                    <option value="" disabled selected hidden>Por escolha uma marca</option>
+                                                    <option value="Dell">Dell</option>
+                                                    <option value="HP">HP</option>
+                                                    <option value="Alienware">Alienware</option>
+                                                    <option value="TDS - SENAI">TDS - SENAI</option>
+                                                </select></p>
+                                                <p><label>Escreva sua mensagem</label>
+                                                    <textarea name="mensagem" rows="5" cols="30"></textarea></p>
+                            <p><input type="reset" value="Limpar Campos" />
+                                <input type="submit" value="Enviar Contato"/></p>
+                        </fieldset>
+                    </form></td>
+                </tr>
+            </table>
+        </section>
+        <footer>
+            <hr/>
+            <h6>Site da aula TDS03/04 - 27/07/2020</h6>
+        </footer>
+    </body>
+</html>

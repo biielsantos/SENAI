@@ -1,0 +1,118 @@
+#include <stdio.h>
+
+main(){
+int x,y;
+printf("informe o primeiro numero\n");
+scanf ("%d",&x);
+printf ("informe o segundo numero\n");
+scanf ("%d",&y);
+printf ("\n");
+
+if (x>y){
+	printf (" o maior e %d",x);
+}
+
+else{
+printf ("o maior e %d",y);
+printf ("\n");
+}
+}
+
+
+----------------------------------------------------------------
+
+
+#include <stdio.h>
+
+main(){
+int x,y;
+printf("informe o primeiro numero\n");
+scanf ("%d",&x);
+printf ("informe o segundo numero\n");
+scanf ("%d",&y);
+printf ("\n");
+
+if (x==y){
+	printf ("Os numeros sao iguais");
+}
+
+else{
+printf ("Diferentes");
+printf ("\n");
+}
+}
+
+------------------------------------------------------------------
+
+
+#include <stdio.h>
+
+main(){
+int x,y,n,resultado;
+printf("informe o primeiro numero\n");
+scanf ("%d",&x);
+printf ("informe o segundo numero\n");
+scanf ("%d",&y);
+printf ("informe o terceiro numero\n");
+scanf ("%d",&n);
+printf ("\n");
+
+resultado= x+y+n;
+printf ("soma :%d \n",resultado);
+}
+
+
+-------------------------------------------------------------------
+
+
+#include <stdio.h>
+
+main(){
+float x;
+printf("informe o numero\n");
+scanf ("%f",&x);
+printf ("\n");
+
+if (x>50) {
+ printf("A metade desse numero e %3.2f", x/2);
+}
+}
+
+
+---------------------------------------------------------------------
+
+#include <stdio.h>
+
+main(){
+int x,y,resultado;
+printf("informe o primeiro numero\n");
+scanf ("%d",&x);
+printf ("informe o segundo numero\n");
+scanf ("%d",&y);
+printf ("\n");
+
+resultado= y+x;
+
+if (resultado>35) {
+	printf ("soma :%d \n",resultado);
+}
+}
+
+----------------------------------------------------------------------
+#include <stdio.h>
+
+main(){
+int x,y,resultado;
+printf("informe o primeiro numero\n");
+scanf ("%d",&x);
+
+if (x>20){
+	printf ("Maior que 20");}
+else if(x<20) {
+	printf ("Menor que 20");
+}
+else {
+	if(x=20){
+		printf ("Igual a 20");}
+}
+}

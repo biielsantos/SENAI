@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Primeiro site.">
+    <meta name="keywords" content="Heroi, historia de herois, listas, tabelas, formulários">
+    <meta name="author" content="Gabriel Pereira dos Santos">
+    <meta name="robots" content="noindex, nofollow">
+    <meta charset="UTF-8">
+    <title>HERO</title>
+    </head>
+    <body>
+        <header>
+            <h1> Hero </h1>
+        </header>
+        <hr>
+        <nav>
+            <a href="index.html"><b>Home</b></a> |
+            <a href="herois.html">Herois</a> |
+            <a href="seja membro.html"> Seja membro</a>
+        </nav>
+        <hr>
+        <section>
+            <table>
+                <tbody><tr>
+                    <td><b>Instagram</b><br>
+                    Heroisrandons<br>
+                <br>
+                <b>Whats</b><br>
+                (44)9999-9999</td>
+                    <td><form method="POST" action="Pós membro.html">
+                        <fieldset>
+                            <legend><b>Inscreva-se</b></legend>
+                            <label>Nome</label>
+                            <input type="text" class="form-control" name="nome" required="" placeholder="Insira o seu nome">
+                            <p><label>Senha</label>
+                                <input type="password" class="form-control" name="senha" placeholder="Digite a sua senha"></p>
+                                <p><label>E-mail</label>
+                                    <input type="email" class="form-control" name="email" required="" placeholder="Digite o seu e-mail"></p>
+                                    <p><label>Data</label>
+                                        <input type="date" class="form-control" name="Data"></p>
+                                        <p><label>Conhecimento sobre herois</label>                                        </label>
+                                            <input type="radio" name="Baixo" value="Baixo">Baixo
+                                            <input type="radio" name="Medio" value="Medio">Medio
+                                            <input type="radio" name="Alto" value="Alto">Alto</p>
+                                            <p><label>Escolha um heroi</label>
+                                                <select class="form-control" name="heroi">
+                                                    <option value="" disabled="" selected="" hidden="">Por um heroi</option>
+                                                    <option value="Batman">Batman</option>
+                                                    <option value="Superman">Superman</option>
+                                                    <option value="Arqueiro verde">Arqueiro verde</option>
+                                                    <option value="Outros">Outros</option>
+                                                </select></p>
+                                                <p><label>Por que escolheu este heroi?</label>
+                                                    <textarea class="form-control" name="mensagem" rows="5" cols="30"></textarea></p>
+                            <p><input type="reset" value="Cancelar">
+                                <input type="submit" value="Inscreva-se"></p>
+                        </fieldset>
+                    </form></td>
+                </tr>
+            </tbody></table>
+        </section>
+        <footer>
+            <hr>
+            <h6>Gabriel Pereira dos Santos TDS04</h6>
+        </footer>
+    
+</body></html>

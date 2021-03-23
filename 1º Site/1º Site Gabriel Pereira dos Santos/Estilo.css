@@ -1,0 +1,9 @@
+body {background-color: burlywood;
+    font-family: Arial, Helvetica, sans-serif;}
+header {background-color: rgb(255, 247, 238);}
+nav {background-color: rgb(255, 246, 233);}
+footer {background-color: rgb(248, 238, 225);}
+table {border: 1px solid black;}
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
+section {background-color: oldlace;}

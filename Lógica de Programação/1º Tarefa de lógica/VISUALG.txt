@@ -1,0 +1,83 @@
+a,b:inteiro
+
+escreval("digite o primeiro numero")
+leia (a)
+escreval("digite o segundo numero")
+leia (b)
+
+se a > b entao
+escreval ("o valor maior é",a)
+senao
+escreval ("o valor maior é",b)
+      fimse
+
+-----------------------------------------------------------------
+x,y:real 
+
+escreval("escreva um numero")
+leia (x)
+escreval("escreva um segundo numero")
+leia (y)
+se x=y entao
+escreval ("Numeros iguais")
+senao
+escreval ("Numeros diferentes")
+fimse
+
+----------------------------------------------------------------
+a,b,c:real
+
+escreval("escreva um numero")
+leia (a)
+escreval("escreva um segundo numero")
+leia (b)
+escreval("escreva um terceiro numero")
+leia(c)
+
+escreva ("soma:")
+escreva (a+b+c)
+
+
+------------------------------------------------------------------
+x:inteiro
+
+  escreval("escreva um numero")
+      leia (x)
+      
+      se x>50 entao
+      escreval (x/2)
+      fimse
+
+-------------------------------------------------------------------
+x,y:inteiro
+
+
+escreval("escreva um numero")
+    leia (x)
+    escreval("escreva mais um numero")
+    leia(y)
+    
+    se (x+y>35) entao
+    escreva ("soma:")
+    escreva (x+y)
+    fimse
+--------------------------------------------------------------------
+x:real
+
+escreval("escreva um numero")
+    leia (x)
+    se x>20 entao
+    escreval("Maior que 20")
+
+    senao
+    se x<20 entao
+    escreval ("Menor que 20")
+
+    senao
+    se x=20 entao
+    escreval ("igual a 20")
+        FIMSE
+           FIMSE
+          FIMSE
+
+
